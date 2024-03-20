@@ -1,0 +1,26 @@
+.tableContainer {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 2px solid #111;
+}
+
+.tableHead{
+    background-color:grey;
+    color: #fff;
+}
+
+.tableBody:nth-child(even){
+    background-color: LightGray;
+}
+
+.tableBody:nth-child(odd){
+    background-color: #fff;
+}
+
+.type::first-letter{
+    text-transform: uppercase;
+}

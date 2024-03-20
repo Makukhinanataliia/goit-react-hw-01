@@ -1,0 +1,67 @@
+.profileContiner{
+  width: 670px;
+  height:380px;
+  border-radius: 15px;
+  border: 2px solid #111;
+  padding-top: 20px;
+}
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profileImg{
+  border-radius: 50%;
+  background-color: gray;
+  border: 2px solid #fff;
+  width: 150px;
+  margin: 0 auto;
+}
+.profileName{
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  margin: 10px;
+}
+.profileTag, .profileLocation{
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5px;
+  letter-spacing: 0.48px;
+  color: gray;
+  margin: 20px;
+}
+.profileStats{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-top: 2px solid gray;
+  background-color: LightGray;
+  border-radius: 0 0 15px 15px;
+  margin-bottom: 0px;
+}
+
+.profileStat{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  width: calc(100% / 3);
+}
+.profileStat:nth-child(2){
+  border-left: 2px solid #797474;
+  border-right: 2px solid #797474;
+}
+.profileStatCounter{
+  font-weight: 700;
+}
